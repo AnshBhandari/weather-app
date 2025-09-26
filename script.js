@@ -2,10 +2,6 @@
 // yadima5190@weirby.com
 // OpenWeatherMap
 
-// new.express.adobe.com
-// yadima5190@weirby.com
-// Ad0beAd0be
-
 const apiKey = "b622ad46eff1ff28defba14c68b09996";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
@@ -50,3 +46,4 @@ searchBox.addEventListener("keypress", (event) => {
 searchButton.addEventListener("click", ()=>{
     checkWeather(searchBox.value);
 })
+
