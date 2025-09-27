@@ -53,6 +53,7 @@ searchBox.addEventListener("keydown", (event) => {
 });
 
 searchButton.addEventListener("click", () => {
-    checkWeather(searchBox.value);
+    checkWeather(searchBox.value)
 });
+
 
